@@ -2,6 +2,7 @@ import mypackage.Car;
 import mypackage.Employee;
 import mypackage.New_c;
 import mypackage.Rectangle;
+import mypackage.Calculator;
 public class HelloWorld {
     public static void main(String[] args) {
         Car car=new Car(); //creation of the object
@@ -53,12 +54,18 @@ public class HelloWorld {
 
         System.out.println(rectangle.getArea()+" "+rectangle.perimeter());
 
+        Calculator calculator=new Calculator();
+
+       calculator.add(10.7,20);
+       calculator.add(10, 30);
+       calculator.add(10.7, 30.5,56.5);
+       calculator.add(45, 50, 100);
 }
 }
 
 
 
-
+ 
 
 
 
