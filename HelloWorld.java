@@ -4,39 +4,39 @@ import mypackage.New_c;
 import mypackage.Rectangle;
 public class HelloWorld {
     public static void main(String[] args) {
-    //     Car car=new Car(); //creation of the object
-    //     car.color="red";//intialize attribute
-    //     car.speed=150;
-    //     car.weight=45.5;
-    //     car.no=123;
-    //     car.speed();
-    //     car.color();
+        Car car=new Car(); //creation of the object
+        car.color="red";//intialize attribute
+        car.speed=150;
+        car.weight=45.5;
+        car.no=123;
+        car.speed();
+        car.color();
        
-    //     Car car2=new Car();//creation new ot the obect
-    //     car2.color="black";
-    //     car2.speed=200;
-    //     car2.weight=50.5;
-    //     car2.no=321;
-    //     car2.speed();
-    //     car2.color();
+        Car car2=new Car();//creation new ot the obect
+        car2.color="black";
+        car2.speed=200;
+        car2.weight=50.5;
+        car2.no=321;
+        car2.speed();
+        car2.color();
 
-    //     Employee employee=new Employee();
-    //     employee.name="John";
-    //     employee.age=18;
-    //     employee.agefinder();
-    //     employee.age=20;//overriding
-    //     employee.agefinder();
+        Employee employee=new Employee();
+        employee.name="John";
+        employee.age=18;
+        employee.agefinder();
+        employee.age=20;//overriding
+        employee.agefinder();
        
-    //     System.out.println( employee.department);
+        System.out.println( employee.department);
 
-    // New_c nC=new New_c();
-    // System.out.println(nC.name+" "+nC.age+" "+nC.department);
+    New_c nC=new New_c();
+    System.out.println(nC.name+" "+nC.age+" "+nC.department);
 
-    // New_c new_c1=new New_c("nirmal",12,"Maintance");
-    // System.out.println(new_c1.name+" "+new_c1.age+" "+new_c1.department);
+    New_c new_c1=new New_c("nirmal",12,"Maintance");
+    System.out.println(new_c1.name+" "+new_c1.age+" "+new_c1.department);
      
-    // New_c new_c3=new New_c("namal",34);
-    // System.out.println(new_c3.name+" "+new_c3.age);    
+    New_c new_c3=new New_c("namal",34);
+    System.out.println(new_c3.name+" "+new_c3.age);    
 
         Rectangle rectangle=new Rectangle();
         System.out.println(Rectangle.count);
