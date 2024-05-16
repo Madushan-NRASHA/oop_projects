@@ -3,7 +3,10 @@ package mypackage;
 public class Employee {
    public String name;
    public int age;
+   public final String department="Maintaince";
+   
     public void agefinder(){
+       
         String a="adult";
         String c="child";
         if(age<=18){
