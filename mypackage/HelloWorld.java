@@ -1,8 +1,4 @@
-import mypackage.Car;
-import mypackage.Employee;
-import mypackage.New_c;
-import mypackage.Rectangle;
-import mypackage.Calculator;
+package mypackage;
 public class HelloWorld {
     public static void main(String[] args) {
         Car car=new Car(); //creation of the object

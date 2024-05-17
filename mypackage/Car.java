@@ -1,6 +1,6 @@
 package mypackage;
 public class Car {
-    public  int no; //instance variable
+      int no; //instance variable
    public String name;
    public String color;
    public double weight;
